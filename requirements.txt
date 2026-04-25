@@ -1,0 +1,11 @@
+# DualSentinel — Dependencies
+# Install with: pip install -r requirements.txt
+
+ultralytics>=8.2.0        # YOLOv8 (detection + classification)
+mediapipe>=0.10.0         # Face Mesh landmarks (Cam 1)
+opencv-python>=4.8.0      # Frame capture, HUD rendering
+pyttsx3>=2.90             # Text-to-speech voice alerts
+numpy>=1.24.0             # Numerical ops
+Pillow>=10.0.0            # Image utilities
+torch>=2.0.0              # PyTorch backend (required by ultralytics)
+torchvision>=0.15.0       # Torchvision ops
